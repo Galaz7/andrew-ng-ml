@@ -4,8 +4,8 @@ import matplotlib.pyplot as plt
 
 def computeCost(X, y, theta):
 
-    dis = (np.dot(X, theta) - y)
-    J = np.dot(dis, dis) / m / 2
+        dis = (np.dot(X, theta) - y)
+        J = np.dot(dis, dis) / m / 2
     return J
 
 
