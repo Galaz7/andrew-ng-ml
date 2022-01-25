@@ -3,9 +3,19 @@ import matplotlib.pyplot as plt
 
 
 def computeCost(X, y, theta):
+    """
+    Computes cost according to MSE.
 
-        dis = (np.dot(X, theta) - y)
-        J = np.dot(dis, dis) / m / 2
+    Args:
+        X:
+        y:
+        theta:
+
+    Returns:
+
+    """
+    dis = (np.dot(X, theta) - y)
+    J = np.dot(dis, dis) / m / 2
     return J
 
 
